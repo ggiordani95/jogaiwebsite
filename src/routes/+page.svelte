@@ -4,17 +4,16 @@ import mockup from "$lib/assets/mockupcel.png"
 import google from "$lib/assets/googleplay.png"
 import apple from "$lib/assets/appstore.png"
 import { onMount } from 'svelte';
-import { navigating } from '$app/stores';
 import { fade, fly } from 'svelte/transition';
 
-let animate = !$navigating;
+
   let loaded = false;
 
   onMount(() => loaded = true);
 </script>
 
 <div class="bg-primary-bg flex flex-col justify-center items-center select-none">
-    {#if animate}
+
     {#if loaded}
     <div class="w-full my-12 flex flex-col justify-center items-center gap-32">
         <div class="w-[900px] flex flex-row justify-between items-center">
@@ -60,7 +59,7 @@ let animate = !$navigating;
         
     </div>
     {/if}
-    {/if}
+ 
 </div>
 
 <style lang="postcss">
