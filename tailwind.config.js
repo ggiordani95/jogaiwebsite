@@ -5,7 +5,7 @@ export default {
     extend: {
       colors:{
         'primary-bg': '#090909',
-      }
+      },
     },
   },
   plugins: [],
