@@ -19,7 +19,7 @@
             <li class="hover:scale-110 hover:text-white transition-all">
                 Contato
             </li>
-            <li class="text-yellow-300 underline underline-offset-4 hover:scale-110 transition-all">
+            <li class="text-main-color underline underline-offset-4 hover:scale-110 transition-all">
                 Entrar
             </li>
         </ul>

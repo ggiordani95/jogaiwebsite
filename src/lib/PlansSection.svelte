@@ -1,8 +1,10 @@
 <div class="w-full  py-12 flex flex-col justify-center items-center bg-no-repeat bg-[url('$lib/assets/blacktext.png')] bg-cover">
     <div class="w-[1100px] flex flex-col justify-between py-20 gap-20">
         <h1 class="text-zinc-600 mr-8 text-6xl max-w-xl font-semibold transition-all hover:scale-110">
-            Seja um de nossos <span class="text-zinc-400">Parceiros!  </span>
+            <!-- Seja um de nossos <span class="text-zinc-400">Parceiros!  </span> -->
+            Você é proprietário de arena? 
         </h1>
+        <span class="text-zinc-400">Conheça nossos planos!</span>
         <div class="flex flex-row">
             <ul class="flex flex-row gap-12 justify-center">
              <p class="text-xl mt-4 text-zinc-600"> Crie, gerencie e visualize todos os agendamentos em um único e simples lugar, com apenas alguns cliques.</p>
@@ -30,7 +32,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="bg-yellow-300 z-20 h-14 rounded-full mt-12 flex justify-center items-center transition-all hover:scale-105">
+            <div class="bg-main-color z-20 h-14 rounded-full mt-12 flex justify-center items-center transition-all hover:scale-105">
                 <p class="text-xl font-medium">QUERO ESSE PLANO!</p>
             </div>
             <div class="bg-black rounded-xl border-[0.2rem] border-gray-700 opacity-10 absolute top-0 right-0 w-full h-full"></div>
@@ -55,7 +57,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="bg-yellow-300 z-20 h-14 rounded-full mt-12 flex justify-center items-center transition-all hover:scale-105">
+            <div class="bg-main-color z-20 h-14 rounded-full mt-12 flex justify-center items-center transition-all hover:scale-105">
                 <p class="text-xl font-medium">QUERO ESSE PLANO!</p>
             </div>
             <div class="bg-black rounded-xl border-[0.2rem] border-gray-700 opacity-10 absolute top-0 right-0 w-full h-full"></div>
@@ -83,7 +85,7 @@
             <div class="bg-zinc-950 z-20 h-14 rounded-full mt-12 flex justify-center items-center transition-all hover:scale-105">
                 <p class="text-lg font-medium text-white">QUERO ESSE PLANO!</p>
             </div>
-            <div class="bg-yellow-300 border-[0.2rem] border-white rounded-xl absolute top-0 right-0 w-full h-full"></div>
+            <div class="bg-main-color border-[0.2rem] border-white rounded-xl absolute top-0 right-0 w-full h-full"></div>
         </div>
     </div>
 </div>

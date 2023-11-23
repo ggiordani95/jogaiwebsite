@@ -1,4 +1,4 @@
-<div class="w-full bg-yellow-300 py-20 flex flex-col justify-center items-center  bg-[url('$lib/assets/texture.png')] bg-cover">
+<div class="w-full bg-main-color py-20 flex flex-col justify-center items-center  bg-[url('$lib/assets/texture.png')] bg-cover">
     <div class="w-[1100px] flex flex-col justify-between pb-20 gap-20">
         <h1 class="text-black mr-8 text-6xl max-w-xl font-semibold transition-all hover:scale-110">
             Diversos recursos para suas reservas!   
