@@ -1,9 +1,10 @@
 <script lang="ts">
 
 import { onMount } from 'svelte';
-  import HeaderSection from '../HeaderSection.svelte';
-  import ResourcesSection from '../ResourcesSection.svelte';
-  import PlansSection from '../PlansSection.svelte';
+  import HeaderSection from '$lib/HeaderSection.svelte';
+  import ResourcesSection from '$lib/ResourcesSection.svelte';
+  import PlansSection from '$lib/PlansSection.svelte';
+  import MockupSection from '$lib/MockupSection.svelte';
 
 
   let loaded = false;
@@ -16,6 +17,7 @@ import { onMount } from 'svelte';
         <HeaderSection/>
         <ResourcesSection/>
         <PlansSection/>
+        <MockupSection/>
     {/if}
 </div>
 
