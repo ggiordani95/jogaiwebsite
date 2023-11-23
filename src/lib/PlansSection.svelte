@@ -1,10 +1,12 @@
 <div class="w-full  py-12 flex flex-col justify-center items-center bg-no-repeat bg-[url('$lib/assets/blacktext.png')] bg-cover">
     <div class="w-[1100px] flex flex-col justify-between py-20 gap-20">
-        <h1 class="text-zinc-600 mr-8 text-6xl max-w-xl font-semibold transition-all hover:scale-110">
-            <!-- Seja um de nossos <span class="text-zinc-400">Parceiros!  </span> -->
-            Você é proprietário de arena? 
-        </h1>
-        <span class="text-zinc-400">Conheça nossos planos!</span>
+        <div class="flex flex-col gap-8">
+            <h1 class="text-zinc-600 mr-8 text-6xl max-w-xl font-semibold transition-all hover:scale-110">
+                <!-- Seja um de nossos <span class="text-zinc-400">Parceiros!  </span> -->
+                Você é proprietário de arena? 
+            </h1>
+            <span class="text-main-color text-5xl italic">Seja nosso parceiro!</span>
+        </div>
         <div class="flex flex-row">
             <ul class="flex flex-row gap-12 justify-center">
              <p class="text-xl mt-4 text-zinc-600"> Crie, gerencie e visualize todos os agendamentos em um único e simples lugar, com apenas alguns cliques.</p>
