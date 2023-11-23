@@ -8,7 +8,7 @@
             <img src={mockup} alt="mobile mockup" width="540"/>
       
        
-        <div class="flex flex-col gap-4">
+        <div class="flex flex-col gap-4 mt-10">
             <h1 class="text-black mr-8 text-6xl max-w-xl font-semibold transition-all hover:scale-110">
                 Sua rede de esportes na palma da mão! 
             </h1>
